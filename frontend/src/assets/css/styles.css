@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 :root {
   --color-primary: #1d2751;
+  --color-secondary: #0f6782;
 }
 
 html,
@@ -28,6 +29,28 @@ body {
   background-color: var(--color-primary) !important;
 }
 
+.bg-light {
+  background-color: #fff !important;
+}
+
+.bg-dark {
+  background-color: var(--color-primary) !important;
+}
+
 .text-primary {
   color: var(--color-primary) !important;
+}
+
+.text-secondary {
+  color: var(--color-secondary) !important;
+}
+
+a {
+  text-decoration: none !important;
+  font-weight: bold !important;
+  color: #fcfcfc;
+}
+
+a:hover {
+  color: #fff;
 }
