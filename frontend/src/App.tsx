@@ -1,4 +1,5 @@
 import DataTable from "components/DataTable";
+import Fintech from "components/Fintech";
 import Footer from "components/Footer";
 import LineChart from "components/LineChart";
 import NavBar from "components/NavBar";
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavBar />
       <div className='container mt-5'>
+        <Fintech />
         <div className='row px-3 my-5 border-bottom shadow-sm'>
           <h5 className='text-secondary py-3'>
             Comparativo de Crescimento no Youtube

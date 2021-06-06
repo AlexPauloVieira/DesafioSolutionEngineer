@@ -19,7 +19,13 @@ const NavBar = () => {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
-          <div className='navbar-nav' style={{ marginLeft: 550 }}>
+          <div className='navbar-nav' style={{ marginLeft: 470 }}>
+            <a
+              className='nav-item nav-link text-secondary nav-links'
+              href='#testeScroll'
+            >
+              Desafio
+            </a>
             <a
               className='nav-item nav-link text-secondary nav-links'
               href='#testeScroll'
