@@ -2,13 +2,46 @@ import ImgLogoStilingue from "assets/img/logotipo-stilingue-horizontal.svg";
 
 const NavBar = () => {
   return (
-    <div className='d-flex fixed-top flex-column flex-md-row align-items-center p-3 px-md-4 mb-5 bg-light border-bottom shadow-sm'>
+    <nav className='navbar fixed-top navbar-expand-lg mb-5 p-3 bg-light border-bottom shadow-sm'>
       <div className='container'>
-        <nav className='my-2 my-md-0 mr-md-3'>
+        <a className='navbar-brand' href='#teste'>
           <img src={ImgLogoStilingue} alt='Stilingue' width='180' />
-        </nav>
+        </a>
+        <button
+          className='navbar-toggler'
+          type='button'
+          data-toggle='collapse'
+          data-target='#navbarNavAltMarkup'
+          aria-controls='navbarNavAltMarkup'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span className='navbar-toggler-icon'></span>
+        </button>
+        <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
+          <div className='navbar-nav' style={{ marginLeft: 550 }}>
+            <a
+              className='nav-item nav-link text-secondary nav-links'
+              href='#testeScroll'
+            >
+              Fintechs
+            </a>
+            <a
+              className='nav-item nav-link text-secondary nav-links'
+              href='#teste'
+            >
+              Redes Sociais
+            </a>
+            <a
+              className='nav-item nav-link text-secondary nav-links'
+              href='#teste'
+            >
+              Comparativo
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

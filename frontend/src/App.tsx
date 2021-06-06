@@ -8,8 +8,7 @@ function App() {
     <>
       <NavBar />
       <div className='container mt-5'>
-        <h1 className='text-primary py-5'>Comparativo entre Fintechs</h1>
-        <div className='row px-3 mb-5 border-bottom shadow-sm'>
+        <div className='row px-3 my-5 border-bottom shadow-sm'>
           <h5 className='text-secondary py-3'>
             Comparativo de Crescimento no Youtube
           </h5>
@@ -20,7 +19,7 @@ function App() {
             <LineChart />
           </div>
         </div>
-        <div className='row px-3 mb-5 border-bottom shadow-sm'>
+        <div className='row px-3 mb-5 border-bottom shadow-sm' id='testeScroll'>
           <h5 className='text-secondary py-3'>
             Comparativo de Crescimento no Instagram
           </h5>
