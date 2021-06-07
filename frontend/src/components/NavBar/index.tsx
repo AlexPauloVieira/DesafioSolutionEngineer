@@ -22,13 +22,13 @@ const NavBar = () => {
           <div className='navbar-nav' style={{ marginLeft: 470 }}>
             <a
               className='nav-item nav-link text-secondary nav-links'
-              href='#testeScroll'
+              href='#challenge'
             >
               Desafio
             </a>
             <a
               className='nav-item nav-link text-secondary nav-links'
-              href='#testeScroll'
+              href='#fintech'
             >
               Fintechs
             </a>
@@ -40,7 +40,7 @@ const NavBar = () => {
             </a>
             <a
               className='nav-item nav-link text-secondary nav-links'
-              href='#teste'
+              href='#comparative'
             >
               Comparativo
             </a>

@@ -4,90 +4,49 @@ const DataTable = () => {
       <table className='table table-striped table-sm'>
         <thead>
           <tr>
-            <th>Data</th>
             <th>Fintech</th>
-            <th>Rede Social</th>
-            <th>Seguidores</th>
-            <th>Variação dia anterior</th>
+            <th>31/05</th>
+            <th>01/06</th>
+            <th>02/06</th>
+            <th>03/06</th>
+            <th>04/06</th>
+            <th>05/06</th>
+            <th>06/06</th>
           </tr>
         </thead>
         <tbody>
+          {/* Nubank */}
           <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
+            <th>Nubank</th>
+            <td>464.863</td>
+            <td>471.850</td>
+            <td>472.322</td>
+            <td>472.524</td>
+            <td>472.618</td>
+            <td>472.934</td>
+            <td>473.088</td>
           </tr>
+          {/* PicPay */}
           <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
+            <th>PicPay</th>
+            <td>83.570</td>
+            <td>83.776</td>
+            <td>83.879</td>
+            <td>83.950</td>
+            <td>83.991</td>
+            <td>84.063</td>
+            <td>84.155</td>
           </tr>
+          {/* PagSeguro */}
           <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
-          </tr>
-          <tr>
-            <td>22/04/2021</td>
-            <td>PicPay</td>
-            <td>Youtube</td>
-            <td>25000</td>
-            <td>+ 2000</td>
+            <th>PagSeguro</th>
+            <td>35.809</td>
+            <td>35.860</td>
+            <td>35.878</td>
+            <td>35.893</td>
+            <td>35.905</td>
+            <td>35.914</td>
+            <td>35.925</td>
           </tr>
         </tbody>
       </table>

@@ -3,20 +3,28 @@ import Chart from "react-apexcharts";
 const LineChart = () => {
   const mockData = {
     labels: {
-      categories: ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"],
+      categories: [
+        "Segunda",
+        "Terça",
+        "Quarta",
+        "Quinta",
+        "Sexta",
+        "Sábado",
+        "Domingo",
+      ],
     },
     series: [
       {
-        name: "PicPay",
-        data: [43.6, 67.1, 67.7, 34.2, 55.7],
+        name: "Nubank",
+        data: [6987.0, 472.0, 202.0, 94.0, 316.0, 154.0, 12],
       },
       {
-        name: "Nubank",
-        data: [67.7, 34.2, 55.7, 12.2, 93.2],
+        name: "PicPay",
+        data: [206.0, 103.0, 71.0, 41.0, 72.0, 92.0, 12],
       },
       {
         name: "PagSeguro",
-        data: [105.2, 65.9, 55.9, 13.4, 98.5],
+        data: [51.0, 18.0, 15.0, 12.0, 9.0, 11.0, 12],
       },
     ],
   };

@@ -1,16 +1,13 @@
 import "./styles.css";
-import ImgLogoNubank from "assets/img/nubank-logo-2021.svg";
-import ImgLogoPicPay from "assets/img/picpay-logo.png";
-import ImgLogoPagSeguro from "assets/img/pagseguro-logo.png";
 
-interface IFintechProps {
+interface IChallengeProps {
   id: string;
 }
 
-const Fintech: React.FC<IFintechProps> = ({ id }) => {
+const Challenge: React.FC<IChallengeProps> = ({ id }) => {
   return (
     <div className='mt-5 fintech-container' id={id}>
-      <h1 className='text-primary'>Fintechs</h1>
+      <h1 className='text-primary'>Desafio</h1>
       <p className='text-paragraph'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
         voluptatum vitae illo vel aspernatur minus quae beatae maiores est
@@ -24,18 +21,8 @@ const Fintech: React.FC<IFintechProps> = ({ id }) => {
         facilis illum ab fugit velit laborum assumenda? Nam, iste. Fugit magnam
         dolore fugiat non quisquam.
       </p>
-      <div className='text-center'>
-        <img className='mx-2' src={ImgLogoNubank} alt='Nubank' width='120' />
-        <img className='mx-2' src={ImgLogoPicPay} alt='PicPay' width='120' />
-        <img
-          className='mx-2'
-          src={ImgLogoPagSeguro}
-          alt='PagSeguro'
-          width='114'
-        />
-      </div>
     </div>
   );
 };
 
-export default Fintech;
+export default Challenge;
