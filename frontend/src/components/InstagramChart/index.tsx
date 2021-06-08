@@ -1,6 +1,6 @@
 import Chart from "react-apexcharts";
 
-const LineChart = () => {
+const InstagramChart = () => {
   const mockData = {
     labels: {
       categories: [
@@ -16,22 +16,29 @@ const LineChart = () => {
     series: [
       {
         name: "Nubank",
-        data: [6987.0, 472.0, 202.0, 94.0, 316.0, 154.0, 12],
+        data: [1933, 2247, 1694, 1262, 946, 562],
       },
       {
         name: "PicPay",
-        data: [206.0, 103.0, 71.0, 41.0, 72.0, 92.0, 12],
+        data: [1237, 958, 315, 718, 271, 204],
       },
       {
         name: "PagSeguro",
-        data: [51.0, 18.0, 15.0, 12.0, 9.0, 11.0, 12],
+        data: [309, 220, 204, 322, 215, 187],
       },
     ],
   };
 
   return (
     <Chart
-      options={{ xaxis: mockData.labels }}
+      options={{
+        xaxis: mockData.labels,
+        yaxis: {
+          title: {
+            text: "Crescimento de Seguidores Instagram",
+          },
+        },
+      }}
       series={mockData.series}
       type='line'
       height='360'
@@ -39,4 +46,4 @@ const LineChart = () => {
   );
 };
 
-export default LineChart;
+export default InstagramChart;
