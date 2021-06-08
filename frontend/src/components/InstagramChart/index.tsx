@@ -38,6 +38,7 @@ const InstagramChart = () => {
             text: "Crescimento de Seguidores Instagram",
           },
         },
+        colors: ["#8605b8", "#20bc5b", "#00b694"],
       }}
       series={mockData.series}
       type='line'
